@@ -1,0 +1,198 @@
+body {
+	background-image: url("../images/folk-pattern.png");
+}
+
+.about-me img {
+	width: 100%;
+}
+
+.about-me p {
+	padding-top: 1%;
+}
+
+.about-me, .portfolio, .contact, .connect {
+	background-color: white;
+	border: 1px dotted black;
+	padding: 1%;
+	margin-top: 1.4%;
+}
+
+.portfolio-image {
+	opacity: .75;
+}
+
+.portfolio-image img {
+	position: relative;
+	width: 70%;
+	padding: 0;
+	margin: 2% 0;
+	z-index: 2;
+}
+
+.portfolio-image:hover  {
+	opacity: 1;
+}
+
+.portfolio-image h2 {
+	position: absolute;
+	background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+    padding-top: 2%;
+    top: 63%;
+    left: 16.7%;
+    width: 66.6%;
+    z-index: 3;
+    text-align: center;
+    opacity: .8;
+    height: 15%;
+}
+
+.connect {
+	background-color: white;
+	margin-top: 2%;
+}
+
+.connect h2 {
+	text-align: center;
+}
+
+.connect img {
+   width: 100%;
+   text-align: auto;
+}
+
+.connect img:hover {
+    background-color: #4aaaa5;
+}
+
+.contact {
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
+/*Makes it so the contact form area highlights when you have it clicked on*/
+
+input:focus,
+textarea:focus {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input[placeholder], textarea[placeholder] {
+	padding-left: 1%;
+}
+
+input {
+    width: 60%;
+}
+
+.message-form {
+    width: 60%;
+    max-width: 98%;
+    min-height: 50px;
+    height: 75px;
+    max-height: 150px;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+.nav-pills {
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+.navbar-header {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 2em;
+}
+
+.header-name  {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Broadway', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 2em;
+    line-height: 2em;
+}
+
+.nav-pills > li > a {
+	color: black;
+}
+
+.nav-pills > li.active > a {
+	background-color: #4aaaa5;
+}
+
+.nav-pills > li.active > a:hover {
+	background-color: #568F8B;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding-left: 0;
+}
+p {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   font-size:1.31em;
+}
+
+
+.footer {
+	position: fixed;
+	background-color: darkgray;
+	border-top: 1px solid black;
+	color: black;
+	padding: 10px;
+	clear: both;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+}
